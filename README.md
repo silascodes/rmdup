@@ -1,5 +1,7 @@
 # rmdup
-A little program I wrote to clean up duplicate MP3 files that people keep giving me.
+A little program I wrote to clean up duplicate MP3 files that people keep giving me, but it doesn't care what the file type is. Will delete any
+duplicates of a file in the entire directory tree (if recurse is specified) otherwise just in the specified directory. Duplicates are detected 
+using the MD5 hash algorithm. Be careful, you can run safe mode first if you like so nothing is deleted, duplicates are just listed.
 
 Supported parameters:
 
